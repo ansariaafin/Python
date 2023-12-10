@@ -53,4 +53,4 @@ class Book(models.Model):
     title = models.CharField(max_length=100)
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
 
-# Many to Many Model  
+# Many to Many Relationship Model  
