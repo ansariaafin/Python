@@ -54,3 +54,6 @@ class Book(models.Model):
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
 
 # Many to Many Relationship Model  
+class collage(models.model)
+     name = models.CharField(max_length = 100)
+    
